@@ -1,12 +1,20 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+import javax.swing.JOptionPane;
 
-/**
- *
- * @author speci
- */
 public class Tarea1Grupo3 {
-    
+    public static void main(String[] args) {
+        JOptionPane.showMessageDialog(null, "Bienvenido al sistema, a continuación, ingrese los datos que se le solicitarán");
+        
+        String nombre = JOptionPane.showInputDialog(null, "Ingrese su nombre: ");
+        String apellido = JOptionPane.showInputDialog(null, "Ingrese su apellido: ");
+        String edad = JOptionPane.showInputDialog(null, "Ingrese su edad: ");
+        String email = JOptionPane.showInputDialog(null, "Ingrese su email: ");
+        String telefono = JOptionPane.showInputDialog(null, "Ingrese su número de teléfono: ");
+        
+        JOptionPane.showMessageDialog(null, "         DATOS      \n\n" +
+                                            "Nombre: " + nombre + "\n" +
+                                            "Apellido: " + apellido + "\n" +
+                                            "Edad: " + edad + "\n" +
+                                            "Email: " + email + "\n" +
+                                            "Número de teléfono: " + telefono); 
+    }
 }
