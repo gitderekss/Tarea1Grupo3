@@ -1,3 +1,5 @@
+package tarea1grupo3;
+
 import javax.swing.JOptionPane;
 
 public class Tarea1Grupo3 {
