@@ -9,5 +9,12 @@ public class Tarea1Grupo3 {
         String edad = JOptionPane.showInputDialog(null, "Ingrese su edad: ");
         String email = JOptionPane.showInputDialog(null, "Ingrese su email: ");
         String telefono = JOptionPane.showInputDialog(null, "Ingrese su número de teléfono: ");
+        
+        JOptionPane.showMessageDialog(null, "         DATOS      \n\n" +
+                                            "Nombre: " + nombre + "\n" +
+                                            "Apellido: " + apellido + "\n" +
+                                            "Edad: " + edad + "\n" +
+                                            "Email: " + email + "\n" +
+                                            "Número de teléfono: " + telefono); 
     }
 }
